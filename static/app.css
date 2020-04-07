@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'din';
+    src: url('fonts/dinpro-bold.eot');
+    src: url('fonts/dinpro-bold_.eot#iefix') format('embedded-opentype'),
+         url('fonts/dinpro-bold.woff') format('woff'),
+         url('fonts/dinpro-bold.ttf') format('truetype'),
+         url('fonts/dinpro-bold.svg#dinprobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'din';
+    src: url('fonts/dinpro-light.eot');
+    src: url('fonts/dinpro-light_.eot#iefix') format('embedded-opentype'),
+         url('fonts/dinpro-light.woff') format('woff'),
+         url('fonts/dinpro-light.ttf') format('truetype'),
+         url('fonts/dinpro-light.svg#dinprolight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'din';
+    src: url('fonts/dinpro-regular.eot');
+    src: url('fonts/dinpro-regular_.eot#iefix') format('embedded-opentype'),
+         url('fonts/dinpro-regular.woff') format('woff'),
+         url('fonts/dinpro-regular.ttf') format('truetype'),
+         url('fonts/dinpro-regular.svg#dinpro-regularregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'din';
+    src: url('fonts/dinpro-black.eot');
+    src: url('fonts/dinpro-black_.eot#iefix') format('embedded-opentype'),
+         url('fonts/dinpro-black.woff') format('woff'),
+         url('fonts/dinpro-black.ttf') format('truetype'),
+         url('fonts/dinpro-black.svg#dinproblack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Minion';
+    src: url('fonts/minion_pro-webfont.eot');
+    src: url('fonts/minion_pro-webfont_.eot#iefix') format('embedded-opentype'),
+         url('fonts/minion_pro-webfont.woff') format('woff'),
+         url('fonts/minion_pro-webfont.ttf') format('truetype'),
+         url('fonts/minion_pro-webfont.svg#minion_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Minion';
+    src: url('fonts/minionwebpro-italic-webfont.eot');
+    src: url('fonts/minionwebpro-italic-webfont_.eot#iefix') format('embedded-opentype'),
+         url('fonts/minionwebpro-italic-webfont.woff') format('woff'),
+         url('fonts/minionwebpro-italic-webfont.ttf') format('truetype'),
+         url('fonts/minionwebpro-italic-webfont.svg#minion_proregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, picture {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Minion', Garamond, serif;
+}
+
+body {
+  background-color: #F7F7F7;
+  font-family: 'din';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: normal;
+  font-family: 'din';
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Minion';
+  font-size: inherit;
+}
+
+a {
+  color: #CF2929;
+  text-decoration: none;
+  transition: color 150ms ease;
+  -webkit-transition: color 150ms ease;
+  -moz-transition: color 150ms ease;
+  -ms-transition: color 150ms ease;
+}
+
+a:hover {
+  color: #212121;
+}
+
+li,
+ol {
+  font-size: inherit;
+  list-style: none;
+}
+
+em {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: italic;
+}
+
+strong {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+input,
+button,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
+  max-width: 100%;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="email"] {
+  display: block;
+  padding: 0.125rem 0.625rem 0.25rem;
+  border-bottom: 1px solid #CF2929;
+  font-family: 'din';
+  font-size: 1rem;
+  font-weight: 300;
+  color: #CF2929;
+  outline: #212121;
+  background-repeat: no-repeat;
+  background-position: 0 0.5rem;
+  transition: background-image 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="search"]:hover,
+input[type="search"]:focus,
+input[type="email"]:hover,
+input[type="email"]:focus {
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #F7F7F7;
+  color: #F7F7F7;
+}
+
+input[type="text"]::placeholder,
+input[type="search"]::placeholder,
+input[type="email"]::placeholder {
+  color: #CF2929;
+  transition: color 150ms ease;
+}
+
+input[type="text"]:hover::placeholder,
+input[type="search"]:hover::placeholder,
+input[type="email"]:hover::placeholder {
+  color: #F7F7F7
+}
+
+input[type="search"] {
+  padding: 0 0.125rem 0.25rem 1rem;
+  background-size: 1rem;
+  background-position: left 0.375rem;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><path stroke='#CF2929' d='M10.32,10.32 L12.8662951,12.8662951' id='Line-3' stroke-linecap='round'/><circle stroke='#CF2929' fill='transparent' id='Oval' cx='6.25' cy='6.25' r='5.75'></circle></svg>");
+}
+
+input[type="search"]:hover,
+input[type="search"]:focus {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><path stroke='#F7F7F7' d='M10.32,10.32 L12.8662951,12.8662951' id='Line-3' stroke-linecap='round'/><circle stroke='#F7F7F7' fill='transparent' id='Oval' cx='6.25' cy='6.25' r='5.75'/></svg>");
+}
+
+input[type="submit"],
+button,
+.button,
+select {
+  font-family: 'din';
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0.25rem 0.625rem 0.375rem;
+  border: 1px solid #CF2929;
+  color: #CF2929;
+  margin-right: 0.75rem;
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+  outline: #212121;
+}
+@media only screen and (min-width: 355px) {
+  input[type="submit"],
+  button,
+  .button,
+  select {
+    margin-right: 0.875rem;
+  }
+}
+
+input[type="submit"]:hover,
+button:hover,
+.button:hover,
+select:hover {
+  border-color: #F7F7F7;
+  background-color: #F7F7F7;
+  color: #212121;
+}
+
+select {
+  text-align-last: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.markdown-content p {
+  margin-bottom: 1rem;
+  text-transform: none;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.online-detail__bio.container {
+  background-color: #F7F7F7;
+}
+
+.online-detail__bio.container-name {
+  margin: 0 0 1rem 0;
+}
